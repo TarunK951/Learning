@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      style="
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        flex-direction: column;
+        max-width: 40%;
+      "
+    >
+      <input id="input" />
+      <!-- Reverse string -->
+      <button onclick="showReverse()" id="reverseString">Reverse string</button>
+      <!-- palindrome -->
+      <button onclick="palinResult()" id="palin">palindrome</button>
+      <!-- max & min Value -->
+      <button onclick="mathArray()" id="palin">max & min Value</button>
+      <!-- count characters -->
+      <button onclick="countChar()" id="countChar">Count Char</button>
+      <!-- missing number -->
+      <button onclick="findMissing()" id="missingNumber">missing Number</button>
+      <!-- result -->
+      <p id="Result"></p>
+
+      <!-- count numbers  -->
+      <div>
+        <h2 id="displayCount"></h2>
+        <div>
+          <button id="add" onclick="add()">+</button>
+          <button id="sub" onclick="sub()">-</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

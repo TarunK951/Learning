@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.count-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  width: 70px;
+  gap: 25px;
+  padding: 18px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.number-opertaions {
+  max-height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+button {
+  background-color: black;
+  color: aliceblue;
+  padding: 5px;
+}
