@@ -13,17 +13,18 @@
             <div class="input-container">
             <div class="inputs">
                 <p class="title">DAY</p>
-                <input type="text" class="input" placeholder="DD">
+                <input type="number" class="input" id="dayInput" min="1" max="31" placeholder="DD" maxlength="2">
             </div>
             <div class="inputs">
                 <p class="title">MONTH</p>
-                <input type="text" class="input" placeholder="MM">
+                <input type="number" class="input" id="monInput" min="1" max="12" placeholder="MM" maxlength="2">
             </div>
             <div class="inputs">
                 <p class="title">YEAR</p>
-                <input type="text" class="input" placeholder="YYYY">
+                <input type="number" class="input" id="yearInput" min="1500" max="2100" maxlength="4" placeholder="YYYY">
             </div>
         </div>
+        <button onclick="check()" class="check">check</button>
         <div class="display-container">
         <div class="display-content">
 <p class="result" id="result-years">--</p>
@@ -34,13 +35,13 @@
 <p class="result-text">months</p>
         </div>
         <div class="display-content">
-            <p class="result" id="result-months">--</p>
+            <p class="result" id="result-days">--</p>
 <p class="result-text">days</p>
         </div>
     </div>
 
          </div>
-         
+         <script src="./script.js"></script>
      
  </div>
      
